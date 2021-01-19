@@ -79,9 +79,9 @@
           if (user) {
             // User is signed in.
             if (user.displayName === null) {
-              $('#firebase-user').text(`Greetings, ${user.email}!`);
+              $('#firebase-user').text(`Hallo, ${user.email}!`);
             } else {
-              $('#firebase-user').text(`Greetings, ${user.displayName}!`);
+              $('#firebase-user').text(`Hallo, ${user.displayName}!`);
             }
           } else {
             $('#firebase-user').hide();
