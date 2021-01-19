@@ -29,26 +29,26 @@
       $html .= "<form id='firebase-login-form'>";
           $html .= "<div>";
               $html .= "<div>";
-                  $html .= "<label for='name'>E-mail</label>";
+                  $html .= "<label for='name'>E-mail Adresse</label>";
                   $html .= "<input type='email' name='email'>";
               $html .= "</div>";
           $html .= "</div>";
 
           $html .= "<div>";
               $html .= "<div>";
-                  $html .= "<label for='email'>Password</label>";
+                  $html .= "<label for='email'>Passwort</label>";
                   $html .= "<input type='password' name='password'>";
               $html .= "</div>";
           $html .= "</div>";
 
-          $html .= "<button id='firebase-form-submit' class='firebase-btn'>Login</button>";
+          $html .= "<button id='firebase-form-submit' class='firebase-btn'>Anmelden</button>";
       $html .= "</form>";
       return $html;
     }
 
     public static function firebase_logout_func() {
       $html = "";
-      $html .= "<button id='firebase-signout' class='firebase-btn'>Sign Out</button>";
+      $html .= "<button id='firebase-signout' class='firebase-btn'>Abmelden</button>";
       return $html;
     }
 
